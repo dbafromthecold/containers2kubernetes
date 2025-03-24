@@ -1,10 +1,10 @@
 ############################################################################
 ############################################################################
 #
-# Docker Deep Dive - Andrew Pruski
-# @dbafromthecold
+# Containers to Kubernetes - Andrew Pruski
+# @dbafromthecold.com
 # dbafromthecold@gmail.com
-# https://github.com/dbafromthecold/DockerDeepDive
+# https://github.com/dbafromthecold/containers2kubernetes
 # Container Isolation
 #
 ############################################################################

@@ -1,10 +1,10 @@
 ############################################################################
 ############################################################################
 #
-# Kubernetes Deep Dive - Andrew Pruski
-# @dbafromthecold
+# Containers to Kubernetes - Andrew Pruski
+# @dbafromthecold.com
 # dbafromthecold@gmail.com
-# https://github.com/dbafromthecold/k8sdeepdive
+# https://github.com/dbafromthecold/containers2kubernetes
 # Deploying Applications
 #
 ############################################################################
