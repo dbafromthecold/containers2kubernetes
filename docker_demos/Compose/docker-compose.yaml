@@ -1,0 +1,22 @@
+version: '3.3'
+ 
+services:
+    sqlserver1:
+        build: 
+          context: .
+          dockerfile: dockerfile
+        ports:  
+          - "15789:1433"
+        env_file:
+          - sqlserver.env
+        volumes: 
+          - sqlsystem:/var/opt/mssql/
+          - sqldata:/var/opt/sqlserver/sqldata
+          - sqllog:/var/opt/sqlserver/sqllog
+          - sqlbackup:/var/opt/sqlserver/sqlbackups
+
+volumes:
+  sqlsystem:
+  sqldata:
+  sqllog:
+  sqlbackup:
