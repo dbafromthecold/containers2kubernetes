@@ -514,5 +514,5 @@ Valuable for applications requiring: -
 </font>
 
 <p align="center">
-  <img src="images/QR" />
+  <img src="images/containers2kubernetes.png" />
 </p>
