@@ -33,6 +33,12 @@
 
 ---
 
+<p align="center">
+  <img src="images/stop-but-why.gif" />
+</p>
+
+---
+
 # Isolation
 
 ---
@@ -204,6 +210,17 @@ Then, with a single command, you create and start all the services from your con
 # Demo
 
 ---
+
+<!-- .slide: style="text-align: left;"> -->
+<p align="center">
+  <img src="images/ding-containers.png" />
+</p>
+<font size="2">
+<a href="https://www.sqlservercentral.com/articles/ding-the-world%E2%80%99s-largest-mobile-top-up-network-streamlines-qa-with-sql-server-containers">https://www.sqlservercentral.com/articles/ding-the-world's-largest-mobile-top-up-network-streamlines-qa-with-sql-server-containers</a><br>
+</font>
+
+---
+
 
 # Kubernetes
 
