@@ -242,7 +242,7 @@ ghcr.io/dbafromthecold/dockerdeepdive:custom_ubuntu
 
 
 # view dockerfile of custom_ubuntu image
-cat ~/git/dockerdeepdive/Demos/CustomImages/Custom_Ubuntu/dockerfile
+cat ~/git/dockerdeepdive/Demos/CustomImages/Custom_Ubuntu/dockerfile && echo ""
 
 
 

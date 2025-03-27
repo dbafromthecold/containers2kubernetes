@@ -18,7 +18,7 @@ cd ~/git/dockerdeepdive/Demos/CustomImages/Image1
 
 
 # view the dockerfile
-cat dockerfile
+cat dockerfile && echo ""
 
 
 
