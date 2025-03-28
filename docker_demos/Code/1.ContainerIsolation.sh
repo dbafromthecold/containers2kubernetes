@@ -239,7 +239,7 @@ docker rm sqlcontainer3 -f
 
 
 # navigate to some code
-cd ~/git/dockerdeepdive/Demos/ContainerFromScratch/
+cd ~/ContainerFromScratch/
 
 
 
@@ -317,3 +317,10 @@ cat /sys/fs/cgroup/cpu,cpuacct/sqlserver/cpu.cfs_quota_us
 
 # exit out of tmux and container
 exit
+
+
+# clean up
+cd ~
+rm sqlserver.tar
+rm -rf sqlserver_bkup
+mv sqlserver sqlserver_bkup

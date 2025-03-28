@@ -31,7 +31,7 @@ mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
 
 
 # navigate to the compose files
-cd ~/git/dockerdeepdive/Demos/Compose
+cd ~/Compose
 
 
 
@@ -51,7 +51,7 @@ cat sqlserver.env
 
 
 # have a look at the docker-compose file
-cat docker-compose.yaml
+cat docker-compose.yaml && echo ""
 
 
 
@@ -137,5 +137,5 @@ docker image ls
 
 
 # clean up
-docker volume prune -f
+docker volume rm compose_sqlbackup compose_sqldata compose_sqllog compose_sqlsystem
 docker image rm compose_sqlserver1

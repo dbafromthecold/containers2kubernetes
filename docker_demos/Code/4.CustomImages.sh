@@ -6,14 +6,13 @@
 # dbafromthecold@gmail.com
 # https://github.com/dbafromthecold/containers2kubernetes
 # Custom Images
-#
 ############################################################################
-############################################################################
+############################################################################'
 
 
 
 # navigate to dockerfile location
-cd ~/git/dockerdeepdive/Demos/CustomImages/Image1
+cd ~/CustomImages/Image1
 
 
 
@@ -126,14 +125,14 @@ mssql-cli -S localhost,15799 -U sa -P Testing1122 -Q "SELECT [name] FROM sys.dat
 
 # clean up
 docker rm $(docker container ls -aq) -f
-docker volume prune -f
+docker volume rm sqlbackups sqldata sqllog sqlsystem
 docker image rm customimage1
 
 
 
 # ok, let's build a SQL image from scratch!
 # let's build another image
-cd ~/git/dockerdeepdive/Demos/CustomImages/Image2
+cd ~/CustomImages/Image2
 
 
 

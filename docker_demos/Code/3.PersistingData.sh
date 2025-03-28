@@ -130,7 +130,7 @@ mssql-cli -S localhost,16100 -U sa -P Testing1122 -Q "SELECT [name] FROM sys.dat
 
 
 # clean up
-docker container rm $(docker container ls -aq) -f && docker volume prune -f
+docker container rm $(docker container ls -aq) -f && docker volume rm sqlserver -f
 
 
 
@@ -227,7 +227,8 @@ mssql-cli -S localhost,16120 -U sa -P Testing1122 -Q "SELECT [name] FROM sys.dat
 
 
 # clean up
-docker container rm $(docker container ls -aq) -f && docker volume prune -f
+docker container rm $(docker container ls -aq) -f
+docker volume rm mssqlsystem mssqluser
 
 
 
@@ -242,7 +243,7 @@ ghcr.io/dbafromthecold/dockerdeepdive:custom_ubuntu
 
 
 # view dockerfile of custom_ubuntu image
-cat ~/git/dockerdeepdive/Demos/CustomImages/Custom_Ubuntu/dockerfile && echo ""
+cat ~/CustomImages/Custom_Ubuntu/dockerfile && echo ""
 
 
 
@@ -251,7 +252,7 @@ docker container ls -a --format "table {{.Names }}\t{{ .Image }}\t{{ .Status }}\
 
 
 
-# view named volumes
+# view anonymous  volumes
 docker volume ls
 
 

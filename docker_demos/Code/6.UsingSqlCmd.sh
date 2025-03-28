@@ -24,7 +24,6 @@ sqlcmd create mssql --accept-eula
 
 
 
-
 # confirm container running
 docker container ls -a --format "table {{.Names }}\t{{ .Image }}\t{{ .Status }}\t{{.Ports}}"
 
