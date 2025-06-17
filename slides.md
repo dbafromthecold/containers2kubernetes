@@ -472,10 +472,11 @@ Valuable for applications requiring: -
 ### Persisting Data
 <!-- .slide: style="text-align: left;"> -->
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: space-evenly; align-items: center; width: 100%;">
   <div style="text-align: center; flex-grow: 1; flex-basis: 0;">
     <p>
-      Storage Classes
+      Storage <br>
+      Classes
     </p>
     <img src="images/sc-128.png" />
   </div>
@@ -487,7 +488,8 @@ Valuable for applications requiring: -
   </div>
   <div style="text-align: center; flex-grow: 1; flex-basis: 0;">
     <p>
-      Persistent Volume Claims
+      Persistent Volume <br> 
+      Claims
     </p>
     <img src="images/pvc-128.png" />
   </div>
