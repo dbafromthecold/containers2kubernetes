@@ -13,7 +13,7 @@
 
 
 # navigate to script location
-cd /mnt/c/git/containers2kubernetes/demos/persisting-data
+cd /mnt/c/git/containers2kubernetes/k8s_demos/persisting-data
 
 
 

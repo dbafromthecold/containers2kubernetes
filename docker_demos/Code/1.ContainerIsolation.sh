@@ -175,6 +175,11 @@ docker rm $(docker ps -aq) -f
 
 
 
+###########################################################################################################
+###########################################################################################################
+
+
+
 # ok, so if we know the constructs around a container...can we build one from scratch?
 # yes! yes we can
 # first, run a container with docker (yes, I know but just wait :-) )
