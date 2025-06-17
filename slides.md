@@ -19,9 +19,9 @@
 
 ---
 
-# Agenda - Part One
-## Containers
-
+## Agenda - Part One
+### Containers
+<!-- .slide: style="text-align: left;"> -->
 - Isolation
 - Networking
 - Persisting data
@@ -30,9 +30,9 @@
 
 ---
 
-# Agenda - Part Two
-## Kubernetes
-
+## Agenda - Part Two
+### Kubernetes
+<!-- .slide: style="text-align: left;"> -->
 - Node Components
 - Deploying Applications
 - Persisting Data
