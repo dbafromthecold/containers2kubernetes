@@ -19,22 +19,41 @@
 
 ---
 
-# Containers
+# Agenda - Part One
+## Containers
+
+- Isolation
+- Networking
+- Persisting data
+- Custom images
+- Docker Compose
 
 ---
 
-## Agenda
-<!-- .slide: style="text-align: left;"> -->
-- Isolation<br>
-- Networking<br>
-- Persisting data<br>
-- Custom images<br>
-- Docker Compose<br>
+# Agenda - Part Two
+## Kubernetes
+
+- Node Components
+- Deploying Applications
+- Persisting Data
+
+---
+
+# Containers
 
 ---
 
 <p align="center">
   <img src="images/stop-but-why.gif" />
+</p>
+
+---
+
+## There are no containers!
+<!-- .slide: style="text-align: left;"> -->
+
+<p align="center">
+  <img src="images/there-is-no-spoon.gif" />
 </p>
 
 ---
@@ -259,12 +278,6 @@ Two different types of Kubernetes nodes: -
 
 ---
 
-### Control Node
-<!-- .slide: style="text-align: left;"> -->
-<img src="images/control-node.gif" style="float: right"/>
-
----
-
 ### Control Node Components
 <!-- .slide: style="text-align: left;"> -->
 <img src="images/control-256.png" style="float: right"/>
@@ -448,26 +461,6 @@ Valuable for applications requiring: -
 
 # Demo
 <!-- .slide: style="text-align: left;"> -->
-
----
-
-# Controlling high availability
-<!-- .slide: style="text-align: left;"> -->
-
----
-
-### Pod Eviction Timings
-
-<pre><code data-line-numbers="1-9|2-5|6-9">tolerations:
-- key: "node.kubernetes.io/unreachable"
-  operator: "Exists"
-  effect: "NoExecute"
-  tolerationSeconds: 10
-- key: "node.kubernetes.io/not-ready"
-  operator: "Exists"
-  effect: "NoExecute"
-  tolerationSeconds: 10
-</pre></code>
 
 ---
 
