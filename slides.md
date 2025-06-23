@@ -39,16 +39,24 @@
 
 ---
 
-# Containers
-
----
-
 ## But......why?
 <!-- .slide: style="text-align: left;"> -->
 
 <p align="center">
   <img src="images/stop-but-why.gif" />
 </p>
+
+---
+
+### Session Aim
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/down_the_rabbit_hole.gif" style="float: left; border: 20px solid rgba(0, 0, 0, 0);"/>
+<br>
+To dive into these technologies and explore the various components
+
+---
+
+# Containers
 
 ---
 
