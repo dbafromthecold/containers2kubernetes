@@ -43,6 +43,9 @@
 
 ---
 
+## But......why?
+<!-- .slide: style="text-align: left;"> -->
+
 <p align="center">
   <img src="images/stop-but-why.gif" />
 </p>
