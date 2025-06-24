@@ -24,7 +24,7 @@ Running SQL Server in a container with SqlCmd
 https://dbafromthecold.com/2023/05/19/running-sql-server-in-a-container-with-sqlcmd/
 
 
-# Kubernetes resources
+### Kubernetes resources
 
 Kubernetes Resources
 Adjusting pod eviction timings: -
